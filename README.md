@@ -11,6 +11,7 @@ mostly random quality-of-life things.
 | script | what it does |
 | --- | --- |
 | `yt-music.sh` | locally save my albums that i own |
+| `resize_img_to_webp.sh` | scans folder for images and converts to webp: `./resize-images.sh ./images 1200 85`  will turn any photo.jpg → photo_resized.webp. doesnt delete originals. |
 
 
 ## usage
