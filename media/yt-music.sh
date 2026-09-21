@@ -54,7 +54,7 @@ else
 fi
 
 # Looking up the highest-voted normalized genre from MusicBrainz.
-MB_USER_AGENT="yt-music-album-download/1.0 (your-email@example.com)"
+MB_USER_AGENT="query/1.0"
 
 mb_search=`curl -fsSG \
         -A "$MB_USER_AGENT" \
